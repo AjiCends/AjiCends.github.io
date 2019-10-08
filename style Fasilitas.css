@@ -1,0 +1,566 @@
+.mainboard{
+  width: 1920px;
+  height: 8628px;
+  background-color: white;
+  margin: auto;
+}
+
+.space{
+  width: 1920px;
+  height: 283px;
+  background-color: white;
+}
+
+.board1{
+  width: 1920px;
+  height: 283px;
+  background: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: -10px;
+  position: fixed;
+}
+
+.board1 .judul {
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 40px;
+  text-align: center;
+  color: #255c01;
+  transform: rotate(-6deg);
+  box-sizing: border-box;
+}
+
+.board1 .navigasi{
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.board1 .navigasi a{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  margin-right: 173px;
+  text-decoration: none;
+  color: #255c01;
+  box-sizing: border-box;
+}
+
+.board2{
+  weight: 1920px;
+  height: 821px;
+  background: #fff;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board2 #judul1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 111px;
+  line-height: 0px;
+  text-align: left;
+  color: #000;
+  margin-left: 30px;
+}
+
+.board2 .img1{
+  width: 1324px;
+  height: 603px;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+
+.board2 .konten{
+  width: 415px;
+  height: 603px;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+
+.board2 .konten #judul2{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 53px;
+  letter-spacing: 0.12em;
+  line-height: 57px;
+  text-align: left;
+  color: #000;
+  margin-top: auto;
+}
+
+.board2 .konten #text1{
+  width: 415px;
+  height: 460px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 50px;
+  text-align: left;
+  color: #000;
+}
+
+.board3{
+  weight: 1920px;
+  height: 821px;
+  background: white;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board3 .img1{
+  width: 734px;
+  height: 668px;
+  overflow: hidden;
+  display: inline-block;
+  background-image: url("Image 12.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+
+.board3 .konten{
+  width: 701px;
+  height: 414px;
+  display: inline-block;
+  margin-left: 60px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.board3 .konten #judul1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 203px;
+  text-align: left;
+  color: #000;
+}
+
+.board3 .konten #text1{
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 50px;
+  text-align: left;
+  color: #000;
+  margin-top: -200px;
+  padding-bottom: 50px;
+}
+
+.board4{
+  weight: 1920px;
+  height: 821px;
+  background: white;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board4 .img1{
+  width: 734px;
+  height: 668px;
+  overflow: hidden;
+  display: inline-block;
+  background-image: url("Image 13.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  float: right;
+  margin-top: 80px;
+}
+
+.board4 .konten{
+  width: 1168px;
+  height: 821px;
+  background-color: white;
+  float: left;
+}
+
+.board4 #judul1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 203px;
+  color: #000;
+  text-align: right;
+  margin-right: 60px;
+  float: right;
+  margin-bottom: -50px;
+}
+
+.board4 #text1{
+  width: 701px;
+  height: 170px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 50px;
+  text-align: right;
+  color: #000;
+  float: right;
+  margin-right: 60px;
+}
+
+
+.board5{
+  weight: 1920px;
+  height: 821px;
+  background: white;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board5 .img1{
+  width:734px;
+  height:668px;
+  background-image: url("Image 14.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  margin-top: 80px;
+}
+
+.board5 .konten{
+  width: 1168px;
+  height: 821px;
+  background-color: white;
+  float: right;
+}
+
+.board5 #judul1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 203px;
+  line-height: 361px;
+  text-align: left;
+  color: #000;
+  margin-top:180px;
+  margin-left: 50px;
+}
+
+.board5 #text1{
+  width: 701px;
+  height: 170px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 50px;
+  text-align: left;
+  color: #000;
+  margin-top: -250px;
+  margin-left: 50px;
+}
+
+.board6{
+  weight: 1920px;
+  height: 821px;
+  background: white;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board6 .konten{
+  width: 1168px;
+  height: 821px;
+  background-color: white;
+  float: left;
+}
+
+.board6 .img1{
+  width:734px;
+  height:668px;
+  background-image: url("Image 15.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  float: right;
+  margin-top: 80px;
+}
+
+.board6 #judul1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 203px;
+  text-align: center;
+  color: #000;
+  float: left;
+  margin-left: 675px;
+}
+
+.board6 #text1{
+  width: 701px;
+  height: 170px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 50px;
+  text-align: right;
+  color: #000;
+  float: right;
+  margin-right: 50px;
+  margin-top: -200px
+}
+
+.board7{
+  weight: 1920px;
+  height: 821px;
+  background: white;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board7 .img1{
+  width:734px;
+  height:668px;
+  background-image: url("Image -9.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 960px 720px;
+  float: left;
+  margin-top: 80px;
+}
+
+.board7 .konten{
+  width: 1168px;
+  height: 821px;
+  background-color: white;
+  float: right;
+}
+
+.board7 #judul1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 203px;
+  text-align: center;
+  color: #000;
+  float: left;
+  margin-left: 50px;
+}
+
+.board7 #text1{
+  width: 701px;
+  height: 170px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 50px;
+  text-align: left;
+  color: #000;
+  float: left;
+  margin-top: -200px;
+  margin-left: 50px;
+}
+
+.board8{
+  weight: 1920px;
+  height: 821px;
+  background: white;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board8 .konten{
+  width: 1168px;
+  height: 821px;
+  background-color: white;
+  float: left;
+}
+
+.board8 .img1{
+  width:734px;
+  height:668px;
+  background-image: url("Image 16.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 960px 720px;
+  float: right;
+  margin-top: 80px;
+}
+
+.board8 #judul1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 203px;
+  text-align: right;
+  color: #000;
+  float: right;
+  margin-right: 50px;
+}
+
+.board8 #text1{
+  width: 701px;
+  height: 170px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 50px;
+  text-align: right;
+  color: #000;
+  float: right;
+  margin-top: 450px;
+  margin-right: -300px;
+}
+
+.board9{
+  weight: 1920px;
+  height: 821px;
+  background: white;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board9 .konten{
+  width: 1168px;
+  height: 821px;
+  background-color: white;
+  float: right;
+}
+
+.board9 .img1{
+  width:734px;
+  height:668px;
+  background-image: url("Image 7.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 960px 720px;
+  float: left;
+  margin-top: 80px;
+}
+
+.board9 #judul1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 203px;
+  text-align: left;
+  color: #000;
+  float: left;
+  margin-left: 50px;
+}
+
+.board9 #text1{
+  width: 701px;
+  height: 170px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 50px;
+  text-align: left;
+  color: #000;
+  float: left;
+  margin-top: -200px;
+  margin-left: 50px;
+}
+
+.board10{
+  weight: 1920px;
+  height: 821px;
+  background: white;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board10 .konten{
+  width: 1168px;
+  height: 821px;
+  background-color: white;
+  float: left;
+}
+
+.board10 .img1{
+  width:734px;
+  height:668px;
+  background-image: url("Image -5.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 960px 720px;
+  float: right;
+  margin-top: 80px;
+}
+
+.board10 #judul1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 203px;
+  text-align: left;
+  color: #000;
+  float: right;
+  margin-right: 50px;
+}
+
+.board10 #text1{
+  width: 701px;
+  height: 170px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 50px;
+  text-align: right;
+  color: #000;
+  float: right;
+  margin-top: 450px;
+  margin-right: -400px;
+}
+
+.board11{
+  weight: 1920px;
+  height: 821px;
+  background: white;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board11 .konten{
+  width: 1168px;
+  height: 821px;
+  background-color: white;
+  float: right;
+}
+
+.board11 .img1{
+  width:734px;
+  height:668px;
+  background-image: url("Image 17.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 960px 720px;
+  float: left;
+  margin-top: 80px;
+}
+
+.board11 #judul1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 203px;
+  text-align: left;
+  color: #000;
+  float: left;
+  margin-left: 45px;
+}
+
+.board11 #text1{
+  width: 701px;
+  height: 170px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 50px;
+  text-align: left;
+  color: #000;
+  float: left;
+  margin-top: -200px;
+  margin-left: 50px;
+}

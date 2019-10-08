@@ -1,0 +1,270 @@
+.mainboard{
+  width: 1920px;
+  height: 5247px;
+  margin: auto;
+}
+
+.board1{
+  width: 1920px;
+  height: 283px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.board1 .judul{
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 40px;
+  text-align: center;
+  color: #255c01;
+  transform: rotate(-6deg);
+}
+
+.board1 .navigasi{
+  text-align: center;
+}
+
+.board1 .navigasi a{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  margin-right: 173px;
+  text-decoration: none;
+  color: #255c01;
+}
+
+.board2{
+  width: 1920px;
+  height: 799px;
+  overflow: hidden;
+  background-image: url(BERANDA-image8.png);
+  background-size: 1920px;
+}
+
+.board2 .kotak{
+  margin-left: 540px;
+  margin-top: 750px;
+}
+
+.board2 .kotak div{
+  width: 187px;
+  height: 0px;
+  background: transparent;
+  border: 5px solid #fff;
+  display: inline-block;
+  margin-right: 76px;
+  border-radius: 20px;
+  float:
+}
+
+.board3{
+  width: 1920px;
+  height: 1080px;
+  background-image: url(BERANDA-image7.png);
+}
+.board3 .judul1{
+  width: 957px;
+  height: 279px;
+}
+.board3{
+  width: 1920px;
+  height: 1080px;
+  background-image: url(BERANDA-image7.png);
+  box-sizing: border-box;
+}
+.board3 .judul1{
+  width: 957px;
+  height: 279px;
+  box-sizing: border-box;
+  margin-left: 48px;
+}
+.board3 .judul1 #apaitu{
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 128px;
+  letter-spacing: 0.05em;
+  line-height: ;
+  color: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.board3 .judul2 {
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  box-sizing: content-box;
+  margin-left: 50px;
+}
+.board3 .judul1 #tt{
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 128px;
+  line-height: 75px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.board3 .konten{
+  width: 912px;
+  height: 361px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 50px;
+  text-align: left;
+  color: #fff;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.cari{
+  width: 325px;
+  height: 109px;
+  background: transparent;
+  margin-left: 50px;
+  border: 10px solid white;
+  text-align: center;
+
+}
+.cari a{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.board4{
+  width: 1920px;
+  height: 1080px;
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: 373px;
+}
+
+.board4 #text1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 85px;
+  text-align: center;
+  color: #255c01;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.board4 #text2{
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 130px;
+  text-align: center;
+  color: #255c01;
+  box-sizing: border-box;
+}
+
+.board5{
+  width: 1920px;
+  height: 2010px;
+  box-sizing: border-box;
+}
+.board5 .turkebun{
+  width: 1186px;
+  height: 668px;
+  background-image: url(BERANDA-image6.png);
+  background-repeat: no-repeat;
+  background-size: 1187px 668px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.board5 .huluhilir{
+  width: 734px;
+  height: 668px;
+  background-image: url(BERANDA-image5.png);
+  background-repeat: no-repeat;
+  background-size: 1001px 668px;
+  display: inline-block;
+  margin-left: -4px;
+  box-sizing: border-box;
+}
+
+.board5 .market{
+  width: 734px;
+  height: 668px;
+  background-image: url(BERANDA-image4.png);
+  background-repeat: no-repeat;
+  background-size: 960px 720px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.board5 .homestay{
+  width: 1186px;
+  height: 668px;
+  background-image: url(BERANDA-image3.png);
+  background-repeat: no-repeat;
+  background-size: 1187px 668px;
+  margin-left: -4px;
+  overflow: hidden;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.board5 .jogging{
+  width: 1186px;
+  height: 668px;
+  background-image: url(BERANDA-image2.png);
+  background-repeat: no-repeat;
+  background-size: 1187px 668px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.board5 .camping{
+  width: 734px;
+  height: 668px;
+  background-image: url(BERANDA-image.png);
+  background-repeat: no-repeat;
+  background-size: 733px 1081px;
+  display: inline-block;
+  margin-left: -4px;
+  box-sizing: border-box;
+}
+
+.board5 #text1{
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 49px;
+  text-align: left;
+  color: #fff;
+  margin-left: 51px;
+  margin-top: 460px;
+}
+
+.board5 #text2{
+  width: 477px;
+  height: 63px;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  text-align: left;
+  color: #fff;
+  margin-left: 51px;
+  margin-top: -60px;
+}
+
+.board5 a{
+  text-decoration: none;
+}

@@ -1,0 +1,105 @@
+.board{
+  width: 1920px;
+  height: 1080px;
+  background-color: white;
+  box-sizing: border-box;
+  margin: auto;
+}
+.board{
+  background-image: url("Buat Akun-image.png");
+  background-size:960px 1080px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.cancel{
+  display: inline-block;
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+.cancel img{
+  width: 42.91px;
+  height: 42.91px;
+}
+.judul{
+  display: inline-block;
+  float: right;
+  margin-right: 480px;
+  margin-top: -50px;
+  box-sizing: border-box;
+}
+.judul h1{
+  font-family: Bebas;
+  font-weight: normal;
+  font-size: 97px;
+  letter-spacing: 0.12em;
+  line-height: 123px;
+  text-align: left;
+  color: #000;
+}
+.paragraf1{
+  margin-top: 300px;
+  display: inline-block;
+  box-sizing: border-box;
+  transform: rotate(-6deg);
+
+}
+.paragraf1 p{
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 86px;
+  line-height: 153px;
+  text-align: center;
+  color: #fff;
+}
+
+.form{
+  width: 881px;
+  height: 857px;
+  display: inline-block;
+  float: right;
+  box-sizing: border-box;
+  margin-top: -700px;
+  margin-right: 40px;
+}
+.form input{
+  width: 825px;
+  height: 51px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid #707070;
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: left;
+  color: #000;
+  display: block;
+  margin: auto;
+  margin-top: 32px;
+  padding-left: 15px;
+}
+#KELUAR{
+  width: 248px;
+  height: 78px;
+  border-radius: 27px;
+  background: #01f129;
+  border: inherit;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 54px;
+  letter-spacing: 0.12em;
+  line-height: 79px;
+  text-align: center;
+  color: #fff;
+  padding: inherit;
+}
+#alamat{
+  width: 825px;
+  height: 251px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid #707070;
+}

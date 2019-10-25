@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 920px;
+  margin: 0;
+  background-color: #76FFBF;
+}
+
+.board1{
+  width: 100%;
+  height: 255px;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board1 .judul{
+  width: 30%;
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 59px;
+  text-align: center;
+  color: #255c01;
+  transform: rotate(-6deg);
+  margin: 2.5% auto 0 auto;
+}
+
+.board1 #login{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 26px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #fff;
+  background-color:  #255c01;
+  width: 96.52px;
+  height: 42.37px;
+  border-radius: 30px;
+  border: 0;
+  float: right;
+  cursor: pointer;
+  margin: 1% 1% 0 0;
+}
+
+.board1 .navigasi{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  padding-top: 8px;
+  margin: 1% 0 0 0;
+}
+
+.board1 .navigasi a{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.board1 .navigasi .wisata{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.board1 .navigasi .tiket{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.keranjang{
+  float: right;
+  margin: 0 2.5% 0 -2.5%;
+}
+
+.keranjang img{
+  width: 30px;
+  height: 30px;
+}
+
+.board1 .navigasi .navigasi-content, .board1 .tiket .navigasi-content{
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 620px;
+  height: 170px;
+  margin: 0 0 0 8%;
+  padding-top: 13px;
+}
+
+.board1 .navigasi .navigasi-content td{
+  width: 210px;
+  color: #255c01;
+  text-align: left;
+  text-decoration: none;
+}
+
+.board1 .navigasi .navigasi-content table, {
+  margin: 13px 0 0 10px;
+}
+
+.board1 .wisata:hover .navigasi-content,.board1 .tiket:hover .navigasi-content {
+  display: block;
+}
+
+.board1 .tiket .navigasi-content{
+  width: 360px;
+  height: 100px;
+  margin-left: 60%;
+}
+.board2 .profil{
+  width: 378px;
+  height: 590px;
+  border-radius: 37px;
+  background: #fff;
+  box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.16);
+  margin: 35px auto 0 auto;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+.board2 .profil img{
+  width: 20px;
+  height: 20px;
+  margin: 0 25px 0 0;
+  float: right;
+}
+
+.board2 .profil .foto{
+  width: 100px;
+  height: 100px;
+  background: #bfadf9;
+  border-radius: 50px;
+  margin: 0 auto 0 auto;
+}
+
+.board2 .profil p{
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+  color: #255c01;
+  margin-top: 15px;
+}
+
+
+.board2 .profil table{
+  margin: 60px auto 0 auto;
+}
+
+.board2 .profil table td{
+  width: 267px;
+  height: 20px;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 41px;
+  text-align: left;
+  color: #434040;
+  border-radius: 13px;
+  background: #ebebeb;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.board2 .profil table th{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 41px;
+  text-align: left;
+  color: #434040;
+  padding-top: 5px;
+}
+
+@font-face {
+  font-family: "Gloss And Bloom";
+  src: url("Gloss_And_Bloom.ttf");
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Aldhabi";
+  src: url("aldhabi.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica.ttf");
+}

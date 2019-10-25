@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.mainboard{
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.board1{
+  width: 100%;
+  height: 255px;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board1 .judul{
+  width: 30%;
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 59px;
+  text-align: center;
+  color: #255c01;
+  transform: rotate(-6deg);
+  margin: 2.5% auto 0 auto;
+}
+
+.board1 #login{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 26px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #fff;
+  background-color:  #255c01;
+  width: 96.52px;
+  height: 42.37px;
+  border-radius: 30px;
+  border: 0;
+  float: right;
+  cursor: pointer;
+  margin: 1% 1% 0 0;
+}
+
+.board1 .navigasi{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  padding-top: 8px;
+  margin: 1% 0 0 0;
+}
+
+.board1 .navigasi a{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.board1 .navigasi .wisata{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.board1 .navigasi .tiket{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.keranjang{
+  float: right;
+  margin: 0 2.5% 0 -2.5%;
+}
+
+.keranjang img{
+  width: 30px;
+  height: 30px;
+}
+
+.board1 .navigasi .navigasi-content, .board1 .tiket .navigasi-content{
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 620px;
+  height: 170px;
+  margin: 0 0 0 8%;
+  padding-top: 13px;
+  z-index: 99;
+}
+
+.board1 .navigasi .navigasi-content td{
+  width: 210px;
+  color: #255c01;
+  text-align: left;
+  text-decoration: none;
+}
+
+.board1 .navigasi .navigasi-content table, {
+  margin: 13px 0 0 10px;
+}
+
+.board1 .wisata:hover .navigasi-content,.board1 .tiket:hover .navigasi-content {
+  display: block;
+}
+
+.board1 .tiket .navigasi-content{
+  width: 360px;
+  height: 100px;
+  margin-left: 60%;
+}
+
+.board2{
+  width: 100%;
+  height: 729px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #01f129;
+  position: relative;
+}
+
+.board2 .konten1{
+  width: 35%;
+  height: 100%;
+  float: left;
+  padding-top: 35px;
+  padding-left: 35px;
+  box-sizing: border-box;
+}
+
+.board2 .Judul h1{
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 72px;
+  letter-spacing: 0.12em;
+  line-height: 129px;
+  text-align: left;
+  color: #fff;
+}
+
+.board2 .Paragraf p{
+  width: 65%;
+  height: 360px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: left;
+  color: #fff;
+  overflow: hidden;
+}
+
+.img{
+  width: 65%;
+  height: 100%;
+  float: right;
+  background-image: url("Pesan-Turkebun-image.png");
+  background-size: 1385px 1039px;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+}
+
+.img .next{
+  float: right;
+  position: absolute;
+  top: 60%;
+  left: 90%;
+  transform: translate(-60%, -90%);
+}
+
+.pesan{
+  width: 300px;
+  height: 134px;
+  background: #2B2C29;
+  position: absolute;
+  top: 91%;
+  left: 43%;
+  transform: translate(-91%, -43%);
+}
+
+.pesan p{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 95px;
+  letter-spacing: 0.12em;
+  line-height: 150px;
+  text-align: center;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Gloss And Bloom";
+  src: url("Gloss_And_Bloom.ttf");
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Aldhabi";
+  src: url("aldhabi.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica.ttf");
+}

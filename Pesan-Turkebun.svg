@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-13, .cls-6, .cls-7, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-12 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Pesan-Turkebun);
+      }
+
+      .cls-3 {
+        fill: #01f129;
+      }
+
+      .cls-12, .cls-15, .cls-4 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 10px;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-6 {
+        font-size: 72px;
+        font-family: GlossAndBloom, Gloss And Bloom;
+      }
+
+      .cls-13, .cls-6 {
+        letter-spacing: 0.12em;
+      }
+
+      .cls-7 {
+        font-size: 40px;
+        font-family: Aldhabi;
+      }
+
+      .cls-9 {
+        font-size: 34px;
+      }
+
+      .cls-13, .cls-9 {
+        font-family: BebasNeue-Regular, Bebas Neue;
+      }
+
+      .cls-10 {
+        font-size: 20px;
+        font-family: Helvetica;
+      }
+
+      .cls-11 {
+        fill: #707070;
+      }
+
+      .cls-12 {
+        stroke-width: 2px;
+      }
+
+      .cls-13 {
+        font-size: 71px;
+      }
+
+      .cls-14 {
+        stroke: none;
+      }
+
+      .cls-16 {
+        filter: url(#Rectangle_50);
+      }
+
+      .cls-17 {
+        filter: url(#Rectangle_43);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_22" data-name="Rectangle 22" class="cls-1" width="1295" height="829" transform="translate(571.338 255)"/>
+    </clipPath>
+    <filter id="Rectangle_43" x="38" y="754" width="1865" height="279" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_50" x="1469" y="799" width="376" height="160" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Pesan-Turkebun">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Pesan-Turkebun" class="cls-2">
+    <rect class="cls-8" width="1920" height="1080"/>
+    <rect id="Rectangle_42" data-name="Rectangle 42" class="cls-3" width="1920" height="1080"/>
+    <g id="Group_43" data-name="Group 43" transform="translate(-393 -225)">
+      <line id="Line_17" data-name="Line 17" class="cls-4" y2="60.68" transform="translate(492.355 267.948) rotate(45)"/>
+      <line id="Line_18" data-name="Line 18" class="cls-4" y1="60.681" transform="translate(492.355 310.855) rotate(135)"/>
+    </g>
+    <g id="Mask_Group_4" data-name="Mask Group 4" class="cls-5" transform="translate(53.662 -255)">
+      <image id="Image_6" data-name="Image 6" width="1385" height="1039" transform="translate(571.338 103)" xlink:href="Pesan-Turkebun-image.png"/>
+    </g>
+    <text id="Tur-Kebun" class="cls-6" transform="translate(281 231)"><tspan x="-214.02" y="0">Tur-Kebun</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipisicing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua._Ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat._Duis_aute_irure_dolor_i" data-name="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i" class="cls-7" transform="translate(56 325)"><tspan x="0" y="26">Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="76">consectetur adipisicing elit, sed </tspan><tspan x="0" y="126">do eiusmod tempor incididunt </tspan><tspan x="0" y="176">ut labore et dolore magna aliqua. </tspan><tspan x="0" y="226">Ut enim ad minim veniam, quis </tspan><tspan x="0" y="276">nostrud exercitation ullamco </tspan><tspan x="0" y="326">laboris nisi ut aliquip ex ea </tspan></text>
+    <g class="cls-17" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Rectangle_43-2" data-name="Rectangle 43" class="cls-8" width="1805" height="219" rx="31" transform="translate(58 774)"/>
+    </g>
+    <text id="nama" class="cls-9" transform="translate(99 840)"><tspan x="0" y="0">nama</tspan></text>
+    <g id="Rectangle_44" data-name="Rectangle 44" class="cls-1" transform="translate(99 858)">
+      <rect class="cls-14" width="385" height="51" rx="14"/>
+      <rect class="cls-15" x="0.5" y="0.5" width="384" height="50" rx="13.5"/>
+    </g>
+    <text id="email" class="cls-9" transform="translate(548 840)"><tspan x="0" y="0">email</tspan></text>
+    <g id="Rectangle_45" data-name="Rectangle 45" class="cls-1" transform="translate(548 858)">
+      <rect class="cls-14" width="385" height="51" rx="14"/>
+      <rect class="cls-15" x="0.5" y="0.5" width="384" height="50" rx="13.5"/>
+    </g>
+    <text id="Tanggal" class="cls-9" transform="translate(999 840)"><tspan x="0" y="0">Tanggal</tspan></text>
+    <g id="Rectangle_46" data-name="Rectangle 46" class="cls-1" transform="translate(997 858)">
+      <rect class="cls-14" width="260" height="51" rx="14"/>
+      <rect class="cls-15" x="0.5" y="0.5" width="259" height="50" rx="13.5"/>
+    </g>
+    <text id="Rabu" class="cls-10" transform="translate(1009 872)"><tspan x="0" y="19">Rabu</tspan></text>
+    <text id="_11_09_2019" data-name="11 / 09 / 2019" class="cls-10" transform="translate(1086 872)"><tspan x="0" y="19">11 / 09 / 2019</tspan></text>
+    <g id="Group_51" data-name="Group 51" transform="translate(-2 -7)">
+      <rect id="Rectangle_47" data-name="Rectangle 47" class="cls-11" width="20" height="6" transform="translate(1225 880)"/>
+      <g id="Rectangle_48" data-name="Rectangle 48" class="cls-12" transform="translate(1221 882)">
+        <rect class="cls-14" width="28" height="19"/>
+        <rect class="cls-15" x="1" y="1" width="26" height="17"/>
+      </g>
+    </g>
+    <text id="Orang" class="cls-9" transform="translate(1311 840)"><tspan x="0" y="0">Orang</tspan></text>
+    <g id="Rectangle_49" data-name="Rectangle 49" class="cls-1" transform="translate(1311 858)">
+      <rect class="cls-14" width="118" height="51" rx="14"/>
+      <rect class="cls-15" x="0.5" y="0.5" width="117" height="50" rx="13.5"/>
+    </g>
+    <g class="cls-16" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Rectangle_50-2" data-name="Rectangle 50" class="cls-3" width="316" height="100" rx="27" transform="translate(1493 823)"/>
+    </g>
+    <text id="Pesan" class="cls-13" transform="translate(1565 895)"><tspan x="0" y="0">Pesan</tspan></text>
+  </g>
+</svg>

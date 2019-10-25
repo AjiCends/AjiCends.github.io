@@ -564,3 +564,22 @@
   margin-top: -200px;
   margin-left: 50px;
 }
+
+@font-face {
+  font-family: "Gloss And Bloom";
+  src: url("Gloss_And_Bloom.ttf");
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Aldhabi";
+  src: url("aldhabi.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica.ttf");
+}

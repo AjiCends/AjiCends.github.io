@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-13, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Buat_Akun);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #112a01;
+        opacity: 0.33;
+      }
+
+      .cls-5 {
+        font-size: 86px;
+        font-family: GlossAndBloom, Gloss And Bloom;
+      }
+
+      .cls-12, .cls-6 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 10px;
+      }
+
+      .cls-7 {
+        font-size: 97px;
+        font-family: Bebas-Regular, Bebas;
+      }
+
+      .cls-10, .cls-7 {
+        letter-spacing: 0.12em;
+      }
+
+      .cls-8 {
+        font-size: 34px;
+      }
+
+      .cls-10, .cls-8 {
+        font-family: BebasNeue-Regular, Bebas Neue;
+      }
+
+      .cls-9 {
+        fill: #01f129;
+      }
+
+      .cls-10 {
+        font-size: 54px;
+      }
+
+      .cls-11 {
+        stroke: none;
+      }
+
+      .cls-14 {
+        filter: url(#Rectangle_50);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_59" data-name="Rectangle 59" class="cls-1" width="960" height="1080"/>
+    </clipPath>
+    <filter id="Rectangle_50" x="1292" y="889" width="308" height="138" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Buat_Akun">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Buat_Akun" data-name="Buat Akun" class="cls-2">
+    <rect class="cls-13" width="1920" height="1080"/>
+    <g id="Rectangle_58" data-name="Rectangle 58" class="cls-1" transform="translate(960)">
+      <rect class="cls-11" width="960" height="1080"/>
+      <rect class="cls-12" x="0.5" y="0.5" width="959" height="1079"/>
+    </g>
+    <g id="Mask_Group_8" data-name="Mask Group 8" class="cls-3">
+      <image id="Image_10" data-name="Image 10" width="1440" height="1080" transform="translate(-480)" xlink:href="Buat%20Akun-image.png"/>
+    </g>
+    <rect id="Rectangle_60" data-name="Rectangle 60" class="cls-4" width="960" height="1080"/>
+    <text id="Cofee_n_Cacao_Eco-Tourism" data-name="Cofee n Cacao
+Eco-Tourism" class="cls-5" transform="matrix(0.995, -0.105, 0.105, 0.995, 476, 504)"><tspan x="-305.945" y="0">Cofee n Cacao</tspan><tspan x="-247.637" y="153">Eco-Tourism</tspan></text>
+    <g id="Group_43" data-name="Group 43" transform="translate(-393 -225)">
+      <line id="Line_17" data-name="Line 17" class="cls-6" y2="60.68" transform="translate(492.355 267.948) rotate(45)"/>
+      <line id="Line_18" data-name="Line 18" class="cls-6" y1="60.681" transform="translate(492.355 310.855) rotate(135)"/>
+    </g>
+    <text id="buat_akun-2" data-name="buat akun" class="cls-7" transform="translate(988 111)"><tspan x="0" y="0">buat akun</tspan></text>
+    <g id="Rectangle_44" data-name="Rectangle 44" class="cls-1" transform="translate(1028 199)">
+      <rect class="cls-11" width="825" height="51" rx="14"/>
+      <rect class="cls-12" x="0.5" y="0.5" width="824" height="50" rx="13.5"/>
+    </g>
+    <text id="nama" class="cls-8" transform="translate(1041 235)"><tspan x="0" y="0">nama</tspan></text>
+    <g id="Rectangle_66" data-name="Rectangle 66" class="cls-1" transform="translate(1028 276)">
+      <rect class="cls-11" width="825" height="51" rx="14"/>
+      <rect class="cls-12" x="0.5" y="0.5" width="824" height="50" rx="13.5"/>
+    </g>
+    <text id="username" class="cls-8" transform="translate(1041 312)"><tspan x="0" y="0">username</tspan></text>
+    <g id="Rectangle_67" data-name="Rectangle 67" class="cls-1" transform="translate(1028 353)">
+      <rect class="cls-11" width="825" height="51" rx="14"/>
+      <rect class="cls-12" x="0.5" y="0.5" width="824" height="50" rx="13.5"/>
+    </g>
+    <text id="email" class="cls-8" transform="translate(1043 389)"><tspan x="0" y="0">email</tspan></text>
+    <g id="Rectangle_68" data-name="Rectangle 68" class="cls-1" transform="translate(1028 430)">
+      <rect class="cls-11" width="825" height="51" rx="14"/>
+      <rect class="cls-12" x="0.5" y="0.5" width="824" height="50" rx="13.5"/>
+    </g>
+    <text id="kata_sandi" data-name="kata sandi" class="cls-8" transform="translate(1045 466)"><tspan x="0" y="0">kata sandi</tspan></text>
+    <g id="Rectangle_69" data-name="Rectangle 69" class="cls-1" transform="translate(1028 584)">
+      <rect class="cls-11" width="825" height="251" rx="14"/>
+      <rect class="cls-12" x="0.5" y="0.5" width="824" height="250" rx="13.5"/>
+    </g>
+    <text id="alamat" class="cls-8" transform="translate(1041 628)"><tspan x="0" y="0">alamat</tspan></text>
+    <g id="Rectangle_70" data-name="Rectangle 70" class="cls-1" transform="translate(1028 507)">
+      <rect class="cls-11" width="825" height="51" rx="14"/>
+      <rect class="cls-12" x="0.5" y="0.5" width="824" height="50" rx="13.5"/>
+    </g>
+    <text id="nomor_seluler" data-name="nomor seluler" class="cls-8" transform="translate(1045 543)"><tspan x="0" y="0">nomor seluler</tspan></text>
+    <g id="Group_52" data-name="Group 52" transform="translate(1058 -11)">
+      <g class="cls-14" transform="matrix(1, 0, 0, 1, -1058, 11)">
+        <rect id="Rectangle_50-2" data-name="Rectangle 50" class="cls-9" width="248" height="78" rx="27" transform="translate(1316 913)"/>
+      </g>
+      <text id="Keluar" class="cls-10" transform="translate(304 980)"><tspan x="0" y="0">Keluar</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -14,7 +14,7 @@
         <p>Eco-Tourism</p>
       </div>
       <div class="navigasi" id="navigasi" onscroll="myFunction">
-        <a href="../index.html" id="home">HOME</a>
+        <a href="index.html" id="home">HOME</a>
         <div class="wisata">
         <a href="wisata_turkebun.html" id="wisata" class="wisata" >WISATA</a>
           <div class="navigasi-content">
@@ -168,4 +168,19 @@
 
     </div>
   </body>
+  <script type="text/javascript" src="../js/jquery/jquery.js"></script>
+  <script>
+      window.onscroll = function() {myFunction()};
+
+      function myFunction() {
+          if (document.body.scrollTop > 230 || document.documentElement.scrollTop > 230) {
+          document.getElementByClassName("img1").className = "slideUp";
+          document.getElementByClassName("img2").className = "slideUp";
+          document.getElementByClassName("img3").className = "slideUp";
+          document.getElementByClassName("img4").className = "slideUp";
+          document.getElementByClassName("img5").className = "slideUp";
+          }
+      }
+  </script>
+  <script type="text/javascript" src="../js/tes.js"></script>
 </html>

@@ -6,7 +6,7 @@
   </head>
   <body>
       <div class="konten">
-        <a href="../index.html">
+        <a href="index.html">
         <div class="cancel">
         </div>
         </a>
@@ -20,38 +20,72 @@
                exercitation ullamco laboris nisi .</p>
         </div>
         <div class="form">
-          <form class="" action="../index.html" method="post">
-
-            <div class="templateInput">
-              <label for="nama" id="lnama" >Nama</label>
-              <br>
-              <input type="text" name="nama" value="" id="inama">
-            </div>
-
-            <div class="templateInput">
-              <label for="email" id="lemail">Email</label>
-              <br>
-              <input type="text" name="email" value="" id="iemail">
-            </div>
-
-            <div class="templateInput">
-              <label for="tanggal" id="ltanggal">Tanggal</label>
-              <br>
-              <input type="date" name="tanggal" value="" id="itanggal">
-            </div>
-
-            <div class="templateInput">
-              <label for="jumlah" id="ljumlah">Jumlah</label>
-              <br>
-              <input type="text" name="jumlah" value="" id="ijumlah">
-            </div>
-
-            <div class="pesan">
-              <button type="button" name="button">Pesan</button>
-            </div>
-
+          <form class="" action="index.html" method="post">
+            <label for="nama" id="lnama" >Nama</label>
+            <label for="email" id="lemail">Email</label>
+            <label for="tanggal" id="ltanggal">Tanggal</label>
+            <label for="jumlah" id="ljumlah">Jumlah</label>
+            <br>
+            <input type="text" name="nama" value="" id="inama">
+            <input type="text" name="email" value="" id="iemail">
+            <input type="date" name="tanggal" value="" id="itanggal">
+            <input type="text" name="jumlah" value="" id="ijumlah">
+            <button type="button" name="button">Pesan</button>
           </form>
         </div>
       </div>
+
+      <div class="background"id="box">
+        <div class="box">
+          <div class="tanggal">
+            <p>08-10-2019</p>
+          </div>
+          <div class="nopes">
+            <h1>No pesanan : 5421</h1>
+            <h2>Rp 60.000,-</h2>
+          </div>
+          <div class="keterangan">
+            <h1>Tur Kebun</h1>
+            <p>Nama     : Aji Cendika Siwi</p>
+            <p>Email    : ajicends@gmail.com</p>
+            <p>Jumlah   : 3</p>
+          </div>
+          <div class="status">
+            <p>Menunggu pembayaran</p>
+          </div>
+          <a href="#">
+            <div class="keluar" id="keluar">
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <script type="text/javascript">
+              // Get the modal
+          var box = document.getElementById("box");
+
+          // Get the button that opens the modal
+          var btn = document.getElementById("botton");
+
+          // Get the <span> element that closes the modal
+          var close = document.getElementById("keluar");
+
+          // When the user clicks the button, open the modal
+          btn.onclick = function() {
+          box.style.display = "block";
+          }
+
+          // When the user clicks on <span> (x), close the modal
+          close.onclick = function() {
+          box.style.display = "none";
+          }
+
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+          if (event.target == box) {
+            box.style.display = "none";
+          }
+          }
+      </script>
   </body>
 </html>

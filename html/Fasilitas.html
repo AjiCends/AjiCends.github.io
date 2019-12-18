@@ -167,17 +167,21 @@
 
     </div>
   </body>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  
   <script>
       window.onscroll = function() {myFunction()};
 
       function myFunction() {
           if (document.body.scrollTop > 230 || document.documentElement.scrollTop > 230) {
-          document.getElementByClassName("img1").className = "slideUp";
-          document.getElementByClassName("img2").className = "slideUp";
-          document.getElementByClassName("img3").className = "slideUp";
-          document.getElementByClassName("img4").className = "slideUp";
-          document.getElementByClassName("img5").className = "slideUp";
+          document.getElementsByClassName("img1").className = "slideUp";
+          document.getElementsByClassName("img2").className = "slideUp";
+          document.getElementsByClassName("img3").className = "slideUp";
+          document.getElementsByClassName("img4").className = "slideUp";
+          document.getElementsByClassName("img5").className = "slideUp";
           }
       }
   </script>

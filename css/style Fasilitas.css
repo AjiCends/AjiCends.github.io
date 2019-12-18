@@ -501,7 +501,7 @@
     -webkit-animation-duration: 1s;
     visibility: visible;
     width: 250px;
-    height: 111px;
+    height: 60px;
   }
 
   @keyframes slideUp {

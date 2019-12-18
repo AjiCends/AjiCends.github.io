@@ -320,3 +320,42 @@
   font-family: "Helvetica";
   src: url("Helvetica.ttf");
 }
+@media screen and (max-width: 645px){
+  .board1{
+    height: auto;
+  }
+
+  .board1 .judul{
+    width: 20%;
+    font-size: 12px;
+    line-height: 29px;
+    margin: 1.5% auto 1.5% auto;
+    transform: rotate(-6deg);
+  }
+
+  .board1 #login{
+    width: 46.52px;
+    height: 22.37px;
+    font-size: 13px;
+  }
+
+  .board1 .navigasi{
+    height: 25px;
+  }
+
+  .board1 .navigasi a{
+    font-family: "Bebas Neue";
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0 4% 0 4%;
+  }
+
+  .board1 .navigasi .wisata{
+    font-size: 12px;
+  }
+
+  .keranjang img{
+    width: 13px;
+    height: 13px;
+  }
+}

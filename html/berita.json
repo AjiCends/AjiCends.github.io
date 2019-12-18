@@ -1,0 +1,22 @@
+{
+  "berita": [
+    {
+      "judul": "Seminar Pemanfaatan biji coklat",
+      "tanggal": "selasa, 17/09/2019",
+      "isi":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex",
+      "gambar": "../image/Image 24.png"
+    },
+    {
+      "judul": "Kunjungan Bupati",
+      "tanggal": "selasa, 17/09/2019",
+      "isi":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex",
+      "gambar": "../image/Image 25.png"
+    },
+    {
+      "judul": "Kunjungan Drs.Braman Setyo, MSI",
+      "tanggal": "selasa, 17/09/2019",
+      "isi":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex",
+      "gambar": "../image/Image 26.png"
+    }
+  ]
+}

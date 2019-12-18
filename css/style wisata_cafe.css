@@ -1,0 +1,400 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.mainboard{
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.board1{
+  width: 100%;
+  height: 255px;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board1 .judul{
+  width: 30%;
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 59px;
+  text-align: center;
+  color: #255c01;
+  transform: rotate(-6deg);
+  margin: 2.5% auto 0 auto;
+}
+
+.board1 #login{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 26px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #fff;
+  background-color:  #255c01;
+  width: 96.52px;
+  height: 42.37px;
+  border-radius: 30px;
+  border: 0;
+  float: right;
+  cursor: pointer;
+  margin: 1% 1% 0 0;
+}
+
+.board1 .navigasi{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  padding-top: 8px;
+  margin: 1% 0 0 0;
+}
+
+.board1 .navigasi a{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.board1 .navigasi .wisata{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.board1 .navigasi .tiket{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.keranjang{
+  float: right;
+  margin: 0 2.5% 0 -2.5%;
+}
+
+.keranjang img{
+  width: 30px;
+  height: 30px;
+}
+
+.board1 .navigasi .navigasi-content, .board1 .tiket .navigasi-content{
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 620px;
+  height: 170px;
+  margin: 0 0 0 8%;
+  padding-top: 13px;
+}
+
+.board1 .navigasi .navigasi-content td{
+  width: 210px;
+  color: #255c01;
+  text-align: left;
+  text-decoration: none;
+}
+
+.board1 .navigasi .navigasi-content table, {
+  margin: 13px 0 0 10px;
+}
+
+.board1 .wisata:hover .navigasi-content,.board1 .tiket:hover .navigasi-content {
+  display: block;
+  z-index: 2;
+}
+
+.board1 .tiket .navigasi-content{
+  width: 360px;
+  height: 100px;
+  margin-left: 60%;
+}
+
+
+.board2{
+  width: 100%;
+  height: 649px;
+  background-color: red;
+  margin: 0 0 0 0;
+}
+
+.board2 .garis{
+  margin: 130% 5% 0 5%;
+}
+
+.board2 .garis .kotak{
+  width: 25%;
+  height: 5px;
+  border-radius: 5px;
+  background-color: white;
+  display: inline-block;
+  margin: 0 3% 0 3%;
+}
+
+.board2 .judul{
+  width: 30%;
+  height: 100%;
+  background-color: #87E3FF;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  z-index: 1;
+}
+
+.board2 .judul p{
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 59px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.board2 .img{
+  width: 70%;
+  height: 100%;
+  float: right;
+  background-image: url("../image/Image 16.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120% 120%;
+}
+
+.board3{
+  width: 100%;
+  height: 76px;
+  background: #2b2c29;
+  padding-left: 30%;
+  box-sizing: border-box;
+}
+
+.board3 .market{
+  width: 160px;
+  height: 76px;
+  background: linear-gradient(to left, #1b1b1b 0%, #2b2c29 100%);
+  display: inline-block;
+
+}
+
+.board3 .market p{
+  margin: 0;
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  color: white;
+  text-align: center;
+  line-height: 59px;
+  padding-top: 10px;
+}
+
+.board3 .cafe{
+  margin:0;
+  width: 160px;
+  height: 76px;
+  background: linear-gradient(to left, #1b1b1b 0%, #2b2c29 100%);
+  display: inline-block;
+}
+
+.board3 .cafe p{
+  margin: 0;
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  color: white;
+  text-align: center;
+  line-height: 59px;
+  padding-top: 10px;
+}
+
+.board4{
+  width: 100%;
+  height: 750px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.board4 .konten{
+  width: 80%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.board4 #text1{
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 80px;
+  text-align: left;
+  color: #000;
+}
+
+.board4 #text2{
+  font-family: "Aldhabi";
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: justify;
+  color: #000;
+}
+
+.board5{
+  width: 100%;
+  height: 568px;
+  position: relative;
+}
+
+.board5 .konten1{
+  width: 60%;
+  height: 100%;
+  background-color: yellow;
+  float: left;
+  background-image: url("../image/tubruk.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.board5 .konten2{
+  width: 40%;
+  height: 100%;
+  float: right;
+  background-image: url("../image/coklat panas.jpg");
+  background-color: red;
+  background-size: 100% 100%;
+  background-position: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.board5 .text{
+  width: 70%;
+  height: 40%;
+  margin-top: 20em;
+  margin-left: 2em;
+  overflow: hidden;
+}
+
+.board5 #judul{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 58px;
+  text-align: left;
+  color: #fff;
+}
+
+.board5 #isi{
+  font-family: "Aldhabi";
+  font-weight: normal;
+  font-size: 31px;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+}
+
+.board6{
+  width: 100%;
+  height: 568px;
+  position: relative;
+}
+
+.board6 .konten1{
+  width: 40%;
+  height: 100%;
+  background-color: yellow;
+  float: left;
+  background-image: url("../image/latte.gif");
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-position: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.board6 .konten2{
+  width: 60%;
+  height: 100%;
+  background-color: red;
+  float: right;
+  background-image: url("../image/cappuccino.jpg");
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-position: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.board6 .text{
+  width: 70%;
+  height: 40%;
+  margin-top: 20em;
+  margin-left: 2em;
+  overflow: hidden;
+}
+
+.board6 #judul{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 58px;
+  text-align: left;
+  color: #fff;
+}
+
+.board6 #isi{
+  font-family: "Aldhabi";
+  font-weight: normal;
+  font-size: 31px;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Gloss And Bloom";
+  src: url("Gloss_And_Bloom.ttf");
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Aldhabi";
+  src: url("aldhabi.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica.ttf");
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news</title>
+    <link rel="stylesheet" href="../css/style news.css">
+  </head>
+  <body>
+    <div class="mainboard">
+      <div class="board1">
+        <a href="login.html"><button type="button" name="button" id="login">Login</button></a>
+        <div class="judul">
+          <p>Cofee n Cacao</p>
+          <p>Eco-Tourism</p>
+        </div>
+        <div class="navigasi" id="navigasi" onscroll="myFunction">
+          <a href="index.html" id="home">HOME</a>
+          <div class="wisata">
+          <a href="wisata_turkebun.html" id="wisata" class="wisata" >WISATA</a>
+            <div class="navigasi-content">
+              <table>
+                <tr>
+                  <td>Edukasi</td>
+                  <td>Belanja</td>
+                  <td>Relaksasi</td>
+                </tr>
+                <tr>
+                  <td><a href="wisata_turkebun.html">+ Turkebun</a></td>
+                  <td><a href="wisata_market.html">+ Market</a></td>
+                  <td><a href="wisata_camping.html">+ Camping</a></td>
+                </tr>
+                <tr>
+                  <td><a href="wisata_hulu-hilir.html">+ Hulu - Hilir</a></td>
+                  <td><a href="wisata_cafe.html">+ Cafe</a></td>
+                  <td><a href="wisata_homestay.html">+ Homestay</a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td><a href="wisata_jogging.html">+ Joging Track</a></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <a href="Fasilitas.html" id="fasilitas">FASILITAS</a>
+          <a href="news.html" id="news">NEWS</a>
+          <div class="tiket">
+            <a href="#" id="tiket">TIKET</a>
+            <div class="navigasi-content">
+              <table>
+                <tr>
+                  <td> <a href="tiket turkebun.html">+ Tur-Kebun</a></td>
+                  <td><a href="tiket homestay.html">+ Homestay</a></td>
+                </tr>
+                <tr>
+                  <td>  <a href="tiket hulu-hilir.html">+ Hulu-Hilir</a></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <a href="profil.html" id="profil">PROFIL</a>
+          <div class="keranjang">
+              <a href="keranjang.html"><img src="../image/shopping-cart.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="berita"></div>
+    </div>
+
+    <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function(e){
+
+        function templateBerita(data) {
+          return `<div class="board2">
+            <div class="konten1">
+              <div class="subkonten1">
+                <p class="judul">${data.judul}</p>
+                <p class="tanggal">${data.tanggal}</p>
+                <p class="isi">${data.isi}</p>
+              </div>
+            </div>
+            <div class="konten2">
+              <div class="subkonten2" style=" background:url('${data.gambar}')">
+                </div>
+              </div>
+            </div>`
+        }
+
+        function reqListener() {
+            let data = JSON.parse(this.response);
+            let card = document.getElementById("berita");
+            data.berita.forEach(baris => {
+              card.innerHTML += templateBerita(baris);
+            });
+        }
+
+        let request = new XMLHttpRequest();
+        request.addEventListener('load', reqListener);
+        request.open('GET', 'berita.json');
+        request.send();
+    });
+
+    </script>
+
+  </body>
+
+
+</html>

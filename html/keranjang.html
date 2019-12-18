@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>keranjang</title>
+    <link rel="stylesheet" href="../css/style_keranjang.css">
+  </head>
+  <body>
+
+    <div class="background"id="box">
+      <div class="box">
+        <div class="tanggal">
+          <p>08-10-2019</p>
+        </div>
+        <div class="nopes">
+          <h1>No pesanan : 5421</h1>
+          <h2>Rp 60.000,-</h2>
+        </div>
+        <div class="keterangan">
+          <h1>Tur Hulu-Hilir</h1>
+          <p>Nama     : Aji Cendika Siwi</p>
+          <p>Email    : ajicends@gmail.com</p>
+          <p>Jumlah   : 3</p>
+        </div>
+        <div class="status">
+          <p>Menunggu pembayaran</p>
+        </div>
+        <a href="#">
+          <div class="keluar" id="keluar">
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <a href="index.html"><div class="cancel">
+
+    </div></a>
+    <h1>keranjang</h1>
+
+
+    <div class="board">
+      <div class="board1">
+        <p id="no">Nomer Pesanan: 5421</p>
+        <p id="date">08-10-2019</p>
+        <p id="price">RP 60.000,-</p>
+        <div class="produk">
+          <p>Tur Hulu-Hilir</p>
+        </div>
+        <div class="status">
+          <p>Menunggu pembayaran</p>
+        </div>
+        <p class="detail" id="detail1">Lihat Detail</p>
+      </div>
+    </div>
+
+    <div class="board">
+      <div class="board1">
+        <p id="no">Nomer Pesanan: 4433</p>
+        <p id="date">01-08-2019</p>
+        <p id="price">RP 45.000,-</p>
+        <div class="produk">
+          <p>Tur Kebun</p>
+        </div>
+        <div class="status" id="finish">
+          <p>Pembelian Berhasil</p>
+        </div>
+        <p class="detail" id="detail2">Lihat Detail</p>
+      </div>
+    </div>
+
+    <div class="board">
+      <div class="board1">
+        <p id="no">Nomer Pesanan: 3521</p>
+        <p id="date">12-05-2019</p>
+        <p id="price">RP 280.000,-</p>
+        <div class="produk">
+          <p>Homestay</p>
+        </div>
+        <div class="status" id="finish">
+          <p>Pembelian Berhasil</p>
+        </div>
+        <p class="detail" id="detail3">Lihat Detail</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+            // Get the modal
+        var box = document.getElementById("box");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("detail1");
+
+        // Get the <span> element that closes the modal
+        var close = document.getElementById("keluar");
+
+        // When the user clicks the button, open the modal
+        btn.onclick = function() {
+        box.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        close.onclick = function() {
+        box.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+        if (event.target == box) {
+          box.style.display = "none";
+        }
+        }
+    </script>
+
+  </body>
+</html>

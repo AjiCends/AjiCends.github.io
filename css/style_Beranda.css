@@ -1,0 +1,417 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.mainboard{
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.board1{
+  width: 100%;
+  height: 255px;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.board1 .judul{
+  width: 30%;
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 59px;
+  text-align: center;
+  color: #255c01;
+  transform: rotate(-6deg);
+  margin: 2.5% auto 0 auto;
+}
+
+.board1 #login{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 26px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #fff;
+  background-color:  #255c01;
+  width: 96.52px;
+  height: 42.37px;
+  border-radius: 30px;
+  border: 0;
+  float: right;
+  cursor: pointer;
+  margin: 1% 1% 0 0;
+}
+
+.board1 .navigasi{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  padding-top: 8px;
+  margin: 1% 0 0 0;
+}
+
+.board1 .navigasi a{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.board1 .navigasi .wisata{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.board1 .navigasi .tiket{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 0.15em;
+  margin: 0 4% 0 4%;
+  text-align: center;
+  text-decoration: none;
+  color: #255c01;
+  display: inline-block;
+}
+
+.keranjang{
+  float: right;
+  margin: 0 2.5% 0 -2.5%;
+}
+
+.keranjang img{
+  width: 30px;
+  height: 30px;
+}
+
+.board1 .navigasi .navigasi-content, .board1 .tiket .navigasi-content{
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 620px;
+  height: 170px;
+  margin: 0 0 0 8%;
+  padding-top: 13px;
+}
+
+.board1 .navigasi .navigasi-content td{
+  width: 210px;
+  color: #255c01;
+  text-align: left;
+  text-decoration: none;
+}
+
+.board1 .navigasi .navigasi-content table, {
+  margin: 13px 0 0 10px;
+}
+
+.board1 .wisata:hover .navigasi-content,.board1 .tiket:hover .navigasi-content {
+  display: block;
+}
+
+.board1 .tiket .navigasi-content{
+  width: 360px;
+  height: 100px;
+  margin-left: 60%;
+}
+
+.board2{
+  width: 100%;
+  height: 740px;
+  overflow: hidden;
+  background-image: url("../image/BERANDA-image8.png");
+  background-size: 1920px;
+  background-position: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.board2 .kotak{
+  margin-top: 45%;
+}
+
+.board2 .kotak div{
+  width: 187px;
+  height: 0px;
+  background: transparent;
+  border: 7px solid #fff;
+  display: inline-block;
+  margin-right: 76px;
+  border-radius: 20px;
+}
+
+.board2 .bar1{
+  opacity: 0.5;
+}
+
+.board2 .bar2{
+  opacity: 0.9;
+}
+
+.board2 .bar3{
+  opacity: 0.5;
+}
+
+.board3{
+  width: 100%;
+  height: 750px;
+  background-image: url("../image/Rectangle 4.png");
+  background-size: 120% 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.board3 .judul1{
+  width: 957px;
+  height: 279px;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.board3 .judul1 #apaitu{
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 0.05em;
+  line-height: ;
+  color: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.board3 .judul2 {
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 80px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  box-sizing: content-box;
+}
+
+.board3 .judul1 #tt{
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 75px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.board3 .konten{
+  width: 912px;
+  height: 361px;
+  font-family: Aldhabi;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: left;
+  color: #fff;
+  margin-left: 50px;
+  margin-top: -40px;
+}
+
+.cari{
+  width: 275px;
+  height: 90px;
+  background: transparent;
+  margin-left: 50px;
+  margin-top: -30px;
+  border: 7px solid white;
+  text-align: center;
+  position: relative;
+
+}
+.cari a{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.board4{
+  width: 100%;
+  height: 900px;
+  background-color: white;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.board4 .text{
+  width: 80%;
+  height: auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.board4 #text1{
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 85px;
+  text-align: center;
+  color: #255c01;
+  box-sizing: border-box;
+}
+
+.board4 #text2{
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 130px;
+  text-align: center;
+  color: #255c01;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.board5{
+  width: 100%;
+  height: 2010px;
+  box-sizing: border-box;
+}
+.board5 .turkebun{
+  width: 62%;
+  height: 668px;
+  background-image: url(../image/BERANDA-image6.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left;
+}
+
+.board5 .huluhilir{
+  width: 38%;
+  height: 668px;
+  background-image: url(../image/BERANDA-image5.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: right;
+}
+
+.board5 .market{
+  width: 38%;
+  height: 668px;
+  background-image: url(../image/BERANDA-image4.png);
+  background-repeat: no-repeat;
+  background-size: 120% 120%;
+  background-position: center;
+  overflow: hidden;
+  float: left;
+}
+
+.board5 .homestay{
+  width: 62%;
+  height: 668px;
+  background-image: url(../image/BERANDA-image3.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  float: right;
+}
+
+.board5 .jogging{
+  width: 62%;
+  height: 668px;
+  background-image: url(../image/BERANDA-image2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left;
+}
+
+.board5 .camping{
+  width: 38%;
+  height: 668px;
+  background-image: url(../image/BERANDA-image.png);
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  float: right;
+  box-sizing: border-box;
+}
+
+.board5 #text1{
+  font-family: "Gloss And Bloom";
+  font-weight: normal;
+  font-size: 49px;
+  text-align: left;
+  color: #fff;
+  margin-top: 9.5em;
+  margin-left: 20px;
+}
+
+.board5 #text2{
+  width: 477px;
+  height: 63px;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  text-align: left;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.board5 a{
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+
+@font-face {
+  font-family: "Gloss And Bloom";
+  src: url("Gloss_And_Bloom.ttf");
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Aldhabi";
+  src: url("aldhabi.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica.ttf");
+}
